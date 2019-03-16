@@ -2,11 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .content {
-font-family: "Avenir Next LT Pro", "Avenir Next", "Futura", sans-serif;
+  margin-left: 15px;
 }
-
 h1{
-
+  font-variant: "Geogrotesque", "Calibri", "Trebuchet MS", sans-serif;
+  font-size: 32px;
 }
 .center{
   text-align: center;
@@ -25,4 +25,15 @@ span{
 .margin-left {
   margin-left: 30px;
   margin-right: 30px;
+}
+.margin-left-left{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+b,p {
+  font-family: "Avenir Next LT Pro", "Avenir Next", "Futura", sans-serif;
+  font-size: 16px;
+}
+.topic{
+  font-size: 20px;
 }
