@@ -13,37 +13,39 @@
 *= require_tree .
 *= require_self
 */
-.content{
-  margin-left: 15px;
-  font-family: "Avenir Next LT Pro", "Avenir Next", "Futura", sans-serif;
-}
-.header{
-  font-variant: "Geogrotesque", "Calibri", "Trebuchet MS", sans-serif;
-  font-size: 18px;
-  margin: 40px 0px 0px 15px;
-}
-.center{
-  text-align: center;
-  font-weight: bold;
-}
-.highlight{
-  font-size: 18px;
-}
-span{
-  font-weight: bold;
-  font-size: 18px;
-}
-.tos {
-  font-size: 400%;
-}
-.margin-left {
-  margin-left: 30px;
-  margin-right: 30px;
-}
-.margin-left-left{
-  margin-left: 50px;
-  margin-right: 50px;
-}
-.topic{
-  font-size: 20px;
+.tos{
+  .content{
+    margin-left: 15px;
+    font-family: "Avenir Next LT Pro", "Avenir Next", "Futura", sans-serif;
+  }
+  .header{
+    font-variant: "Geogrotesque", "Calibri", "Trebuchet MS", sans-serif;
+    font-size: 18px;
+    margin: 40px 0px 0px 15px;
+  }
+  .center{
+    text-align: center;
+    font-weight: bold;
+  }
+  .highlight{
+    font-size: 18px;
+  }
+  span{
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .margin-left {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .margin-left-left{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .topic{
+    font-size: 20px;
+  }
+  .bottom-end{
+    margin-bottom: 40px;
+  }
 }
